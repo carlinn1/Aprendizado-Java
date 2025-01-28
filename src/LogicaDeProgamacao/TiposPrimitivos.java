@@ -1,4 +1,4 @@
-package LógicaDeProgamação;
+package LogicaDeProgamacao;
 
 public class TiposPrimitivos {
     public static void main(String[] args) {
