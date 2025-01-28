@@ -9,7 +9,14 @@ public class Strings {
         String nome = "Carlos";
         String sobrenome = "Henrique";
 
-        System.out.println(nome + " " + sobrenome);
+        int tamanho = nome.length() + sobrenome.length();
+        boolean saoIguais = nome.equals(sobrenome);
+
+
+        System.out.println(nome.toUpperCase() + " " + sobrenome); // Maiusculo
+        System.out.println(nome.toLowerCase() + " " + sobrenome); // Minusculo
+        System.out.println("Tamanho da String: " + tamanho);
+        System.out.println("Sao Iguais? " + saoIguais);
 
     }
 }
