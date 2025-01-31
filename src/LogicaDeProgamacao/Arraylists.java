@@ -20,6 +20,7 @@ public class Arraylists{
         System.out.println(nomes.get(0));
         System.out.println(nomes.get(1));
         System.out.println(nomes.get(2));
+
 //        System.out.println(nomes.get(3));
 
     }
