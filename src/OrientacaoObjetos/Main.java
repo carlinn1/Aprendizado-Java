@@ -7,10 +7,7 @@ public class Main {
         // extends = Herança ele herda da classe pai
         // polimorfismo = objetos do mesmo tipo com resultados diferentes!
         // Estrutura MVC Model,View, Controler
-
-        //        Professor professor = new Professor();
-        //        System.out.println(professor.getNome());
-        //        System.out.println(professor.getIdade());
+        // Super usado para puxar dados de uma classe pai ela puxa de uma classe superior
 
     }
 }
