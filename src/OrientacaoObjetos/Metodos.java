@@ -27,4 +27,10 @@ public class Metodos {
         System.out.println("A divisão é: " + divisao);
 
     }
+
+    public void media(){
+        int media = 8 + 9 / 2;
+        System.out.println("A media é: " + media);
+
+    }
 }
