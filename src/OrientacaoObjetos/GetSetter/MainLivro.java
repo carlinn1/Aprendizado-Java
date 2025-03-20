@@ -1,4 +1,4 @@
-package OrientacaoObjetos;
+package OrientacaoObjetos.GetSetter;
 
 public class MainLivro {
     public static void main(String[] args) {

@@ -12,12 +12,5 @@ public class Main {
         //        System.out.println(professor.getNome());
         //        System.out.println(professor.getIdade());
 
-        Metodos mtd = new Metodos();
-        mtd.somar();
-        mtd.subtrai();
-        mtd.multiplica();
-        mtd.divisao();
-        mtd.media();
-
     }
 }
