@@ -13,7 +13,7 @@ Repositório para acompanhar minha jornada de aprendizado em Java.
 - [ ] Threads e Concorrência
 - [ ] Testes Unitários com JUnit e Mockito
 
-## 🧠 O que Estou Aprendendo em Spring-Boot
+## 🧠 O que Estou Aprendendo em Spring-Boot Backend
 - [ ] Fundamentos do Spring Boot
 - [ ] Spring MVC e APIs REST
 - [ ] Acesso a Banco de Dados com Spring Data JPA
@@ -23,6 +23,19 @@ Repositório para acompanhar minha jornada de aprendizado em Java.
 - [ ] Microsserviços e Comunicação Entre Serviços
 - [ ] Cache, Performance e Otimização
 - [ ] DevOps e Implantação
+
+## 🧠 O que Estou Aprendendo em Angular Frontend
+- [ ] Fundamentos do Angular
+- [ ] TypeScript para Angular
+- [ ] Componentes e Templates
+- [ ] Serviços e Injeção de Dependência
+- [ ] Roteamento e Navegação
+- [ ] Formulários no Angular
+- [ ] Comunicação com APIs REST
+- [ ] Gerenciamento de Estado
+- [ ] Autenticação e Segurança
+- [ ] Testes e Performance
+- [ ] Deploy e DevOps
 
 ## 🏗️ Projetos
 1. [Controle de Estoque Java Swing) - Projeto Controle de Estoque Orientado a Objetos
