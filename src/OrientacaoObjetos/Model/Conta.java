@@ -11,6 +11,14 @@ public class Conta extends BancoHerança { // A classe Conta herda da classe Ban
     // Public quando queremos que o atributo seja acessível de qualquer lugar do código
     // Isso é útil para atributos que precisam ser amplamente acessíveis, mas deve ser usado com cuidado
 
+    // Extends indica que a classe Conta está herdando atributos e métodos da classe BancoHerança
+    // Isso promove a reutilização de código e estabelece uma relação "é um" entre as classes
+
+    // implements indica que a classe Conta está implementando os métodos definidos na interface BancoInterface
+    // Isso garante que a classe Conta forneça implementações específicas para os métodos declarados na interface
+
+    //
+
     // Atributos da classe Conta
 
     private double numero;

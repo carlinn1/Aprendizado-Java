@@ -22,5 +22,9 @@ public class Casting {
         System.out.println("Integer para String: " + num4);
         System.out.println("String para Integer: " + num6);
 
+        String num7 = "10.5";
+        Double num8 = Double.parseDouble(num7);
+        System.out.println("String para Double: " + num8);
+
     }
 }

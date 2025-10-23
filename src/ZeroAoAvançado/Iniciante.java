@@ -36,6 +36,12 @@ public class Iniciante {
         System.out.println("!cond1: " + (!cond1)); // Negação
         System.out.println();
 
+        // Ordem de precedência: (), *, /, %, +, -, >, <, >=, <=, ==, !=, &&, ||
+        int resultado = (a + b) * 2 - (a / b);
+        System.out.println("Resultado da expressão (a + b) * 2 - (a / b): " + resultado);
+        System.out.println();
+        
+
         // Imprima "Executando o Hello World" 10 vezes no console
         // O for abaixo é uma estrutura de repetição que executa o bloco de código dentro dele 10 vezes
         // O i é uma variável de controle que começa em 0 e incrementa até chegar a 9
