@@ -177,8 +177,8 @@ public class Iniciante {
         //try-catch para tratamento de exceções
         System.out.println("\nExemplo de tratamento de exceções:"); // Bloco try-catch
         try {
-            int resultado = a / 0; // Tentativa de divisão por zero
-            System.out.println("Resultado: " + resultado); // Imprime o resultado se não houver exceção
+            int resultadoa = a / 0; // Tentativa de divisão por zero
+            System.out.println("Resultado: " + resultadoa); // Imprime o resultado se não houver exceção
         } catch (ArithmeticException e) { // Captura a exceção de divisão por zero
             System.out.println("Erro: Divisão por zero não é permitida."); // Mensagem de erro
         }
