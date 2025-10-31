@@ -9,6 +9,9 @@ public class ListIteratorStream {
 
     public static void main(String[] args) {
 
+        // Stream é uma abstração para trabalhar com coleções de forma funcional
+        // Ele permite operações como map, filter e reduce de forma mais concisa e legível
+
         // Usando Stream para percorrer a lista de nomes
         // O Stream permite operações funcionais e paralelas
         List<String> names = Arrays.asList("Alice", "Bob", "Charlie", "David");
