@@ -21,8 +21,6 @@ public class TiposErros {
 
     }
 
-   
-
     // Exeção checada e não checada
     private static void metodoComErroChecado() throws Exception {
         throw new Exception("Este é um erro checado.");
@@ -31,4 +29,5 @@ public class TiposErros {
     private static void metodoComErroNaoChecado() {
         throw new RuntimeException("Este é um erro não checado.");
     }
+
 }
