@@ -1,6 +1,7 @@
 package ZeroAoAvançado.Java10X;
 
-import ZeroAoAvançado.Java10X.Herança.Ninja;
+import ZeroAoAvançado.Java10X.Enums.NivelNinja;
+import ZeroAoAvançado.Java10X.Herança.Hatake;
 import ZeroAoAvançado.Java10X.Herança.Sarada;
 import ZeroAoAvançado.Java10X.Herança.Uchiha;
 
@@ -13,7 +14,8 @@ public class Main {
 
     public static void main(String[] args) {
         Uchiha uchiha = new Uchiha();
-        Sarada sarada = new Sarada();
+        Sarada sarada = new Sarada("Sarada", "Aldeia da folha", 17, NivelNinja.JOUNNIN);
+        Hatake hatake = new Hatake();
 
 
         uchiha.setNome("Sasuke Uchiha");
@@ -25,11 +27,12 @@ public class Main {
         System.out.println("Aldeia: " + uchiha.getAldeia());
         uchiha.sharinganAtivado();
 
-        sarada.setNome("Sarada Uchiha");
-        sarada.setIdade(18);
-        sarada.setAldeia("Aldeia da Folha");
-        sarada.ativarMangekyou();
-        sarada.ativarSharigan();
+        hatake.setNome("Kakashi");
+        hatake.euSouHatake();
+        hatake.bemVindoAnbu();
+        hatake.ativarSharigan();
+        hatake.ativarMangekyou();
+
 
 
     }

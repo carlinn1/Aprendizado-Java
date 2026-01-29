@@ -1,5 +1,7 @@
 package ZeroAoAvançado.Java10X.Herança;
 
+import ZeroAoAvançado.Java10X.Enums.NivelNinja;
+
 public abstract class Ninja {
 
     // Como ela é uma classe abstrata nao pode ser intanciada!
@@ -7,11 +9,13 @@ public abstract class Ninja {
     String nome;
     String aldeia;
     int idade;
+    NivelNinja rank;
 
-    public Ninja(String nome, String aldeia, int idade) {
+    public Ninja(String nome, String aldeia, int idade, NivelNinja rank) {
         this.nome = nome;
         this.aldeia = aldeia;
         this.idade = idade;
+        this.rank = rank;
     }
 
     public Ninja() {
