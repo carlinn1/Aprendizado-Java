@@ -18,9 +18,7 @@ public abstract class Ninja {
         this.rank = rank;
     }
 
-    public Ninja() {
-
-    }
+    public Ninja() {}
 
     public String getNome() {
         return nome;
